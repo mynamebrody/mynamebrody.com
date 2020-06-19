@@ -640,8 +640,11 @@ strong {
 .intro__tagline .technologist {
   background-image: url(../img/emojis/technologist.png);
 }
-.arya {
-  background-image: url(../img/emojis/arya.png);
+.background .emoji {
+  width: 20px;
+  height: 20px;
+  margin: 0 3px;
+  vertical-align: text-bottom;
 }
 .intro__contact {
   font-size: 1.25rem;
