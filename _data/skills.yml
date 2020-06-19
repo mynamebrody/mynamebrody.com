@@ -1,33 +1,25 @@
 languages:
   - item: JavaScript (ES6)
-  - item: TypeScript
-  - item: HTML
-  - item: CSS/Sass
+  - item: HTML/CSS
+  - item: Ruby
   - item: Python
   - item: SQL
-  - item: R
 
 frameworks:
-  - item: Ember & Glimmer
-  - item: React
-  - item: Jekyll
   - item: Node
-  - item: D3
-  - item: Wordpress
-  - item: Timber
+  - item: REST APIs
+  - item: Jekyll
+  - item: Hugo
+  - item: Ghost
 
 tools:
   - item: Bash
   - item: Git & Github
-  - item: Gulp & Grunt
+  - item: Postman/Paw
   - item: Chrome DevTools
-  - item: Postman
-  - item: MongoDB
+  - item: Airtable
 
-design:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
-  - item: Prototyping
-  - item: Wireframing
-  - item: User Testing
+power:
+  - item: Zapier
+  - item: Squarespace
+  - item: Shopify
