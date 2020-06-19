@@ -1,18 +1,18 @@
 {
-  "name": "brittanychiang.com",
+  "name": "mynamebrody.com",
   "version": "0.0.0",
-  "description": "Design-minded front-end software engineer focused on building beautiful interfaces and experiences",
+  "description": "Third iteration of my personal website built with Jekyll",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/bchiang7.github.io"
+    "url": "https://github.com/mynamebrody/mynamebrody.com"
   },
-  "homepage": "https://github.com/bchiang7/bchiang7.github.io",
+  "homepage": "https:/mynamebrody.com",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp serve --watch",
     "build": "gulp build"
   },
-  "author": "Brittany Chiang",
+  "author": "Brody Berson",
   "license": "ISC",
   "devDependencies": {
     "@nuscout/eslint-config": "^0.2.1",

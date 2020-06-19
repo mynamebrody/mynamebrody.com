@@ -1,19 +1,26 @@
 <footer class="footer">
   <div class="footer__copyright">
     <div class="top">
-      <span>Designed &amp; Developed by</span>
+      <span>mynamebrody.com</span>
     </div>
     <div class="bottom">
-      <span>Brittany Chiang</span>
-      <img class="emoji" src="{{site.baseurl}}/img/emojis/rockon.png" alt="emoji">
-      <span>2018</span>
+      <span>{{site.name}}</span>
+      <img
+        class="emoji"
+        src="{{site.baseurl}}/img/emojis/memoji.png"
+        alt="emoji"
+      />
+      <span>2020</span>
     </div>
   </div>
   <div class="footer__links">
     {% for link in site.social %}
     <a href="{{link.url}}" target="_blank" title="{{link.title}}">
       <span class="text">{{link.title}}</span>
-      <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}">
+      <img
+        src="{{site.baseurl}}/img/social/{{link.title}}.svg"
+        alt="{{link.title}}"
+      />
     </a>
     {% endfor %}
   </div>
