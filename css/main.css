@@ -987,6 +987,8 @@ strong {
     display: block;
   }
 }
+
+.section__content .emoji,
 .footer__copyright .emoji {
   width: 20px;
   height: 20px;
