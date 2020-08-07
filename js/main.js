@@ -3,22 +3,26 @@ $(function() {
   const toggle = document.getElementById('toggle');
   const input = document.getElementById('switch');
 
-
-  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  if (
+    window.matchMedia &&
+    window.matchMedia('(prefers-color-scheme: dark)').matches
+  ) {
     input.checked = true;
     body.classList.add('night');
   }
 
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-    const newColorScheme = e.matches ? "dark" : "light";
-    if (newColorScheme === "dark") {
-      input.checked = true;
-      body.classList.add('night');
-    } else {
-      input.checked = false;
-      body.classList.remove('night');
-    }
-  });
+  window
+    .matchMedia('(prefers-color-scheme: dark)')
+    .addEventListener('change', e => {
+      const newColorScheme = e.matches ? 'dark' : 'light';
+      if (newColorScheme === 'dark') {
+        input.checked = true;
+        body.classList.add('night');
+      } else {
+        input.checked = false;
+        body.classList.remove('night');
+      }
+    });
 
   toggle.addEventListener('click', function() {
     const isChecked = input.checked;
