@@ -1,15 +1,28 @@
 $(function() {
-  const d = new Date();
-  const hours = d.getHours();
-  const night = hours >= 19 || hours <= 7; // between 7pm and 7am
   const body = document.querySelector('body');
   const toggle = document.getElementById('toggle');
   const input = document.getElementById('switch');
 
-  if (night) {
+  if (
+    window.matchMedia &&
+    window.matchMedia('(prefers-color-scheme: dark)').matches
+  ) {
     input.checked = true;
     body.classList.add('night');
   }
+
+  window
+    .matchMedia('(prefers-color-scheme: dark)')
+    .addEventListener('change', e => {
+      const newColorScheme = e.matches ? 'dark' : 'light';
+      if (newColorScheme === 'dark') {
+        input.checked = true;
+        body.classList.add('night');
+      } else {
+        input.checked = false;
+        body.classList.remove('night');
+      }
+    });
 
   toggle.addEventListener('click', function() {
     const isChecked = input.checked;
