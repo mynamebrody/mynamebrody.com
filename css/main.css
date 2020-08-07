@@ -987,6 +987,8 @@ strong {
     display: block;
   }
 }
+
+.section__content .emoji,
 .footer__copyright .emoji {
   width: 20px;
   height: 20px;
@@ -1011,6 +1013,10 @@ strong {
   font-weight: 700;
   margin: 0 15px;
   outline: 0;
+}
+
+.footer__links img {
+  filter: invert(44%) sepia(60%) saturate(7496%) hue-rotate(201deg) brightness(104%) contrast(105%);
 }
 @media screen and (max-width: 1024px) {
   .footer__links a {
