@@ -1014,6 +1014,10 @@ strong {
   margin: 0 15px;
   outline: 0;
 }
+
+.footer__links img {
+  filter: invert(44%) sepia(60%) saturate(7496%) hue-rotate(201deg) brightness(104%) contrast(105%);
+}
 @media screen and (max-width: 1024px) {
   .footer__links a {
     margin: 0 10px;
