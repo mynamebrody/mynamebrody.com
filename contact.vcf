@@ -6,14 +6,18 @@ FN:Brody Berson
 ORG:cocoNFT;
 TITLE:Cofounder & Chief Product Officer
 EMAIL;type=INTERNET;type=WORK;type=pref:brody@coconft.com
-TEL;type=IPHONE;type=CELL;type=VOICE;type=pref:+12313292295
 X-SOCIALPROFILE;type=twitter:http://twitter.com/brody_berson
 X-SOCIALPROFILE;type=linkedin:http://www.linkedin.com/in/brodyharrisberson
+X-SOCIALPROFILE;type=Discord:mynamebrody#5466
 NOTE:cocoNFT allows for an easy and free onramp for creators to get started with NFTs. We allow users to create their first crypto wallet just by signing in with Facebook/Google and then connect their Instagram and allow them to list their posts for sale as NFTs on the Ethereum blockchain without any upfront gas fees. Each user gets a branded cocoNFT page that they can use as their link in bio so their fans can easily shop their feed.\n\n
 item1.URL;type=pref:https://coconft.com/mynamebrody
 item1.X-ABLabel:cocoNFT
 item2.URL:https://calendly.com/coco-brody
-item2.X-ABLabel:calendly
+item2.X-ABLabel:Calendly
+item3.URL:https://t.me/mynamebrody
+item3.X-ABLabel:Telegram
+item4.URL:http://instagram.com/@mynamebrody
+item4.X-ABLabel:Instagram
 PHOTO;ENCODING=b;TYPE=JPEG:/9j/4AAQSkZJRgABAQAASABIAAD/4QBMRXhpZgAATU0AKgAA
  AAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAB9KADAAQAAAABAA
  AB9AAAAAD/7QA4UGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAAA4QklNBCUAAAAAABDUHYzZjwCy
